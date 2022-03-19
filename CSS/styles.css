@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+header, main, footer{
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-color: black;
+    color: white;
+}
+main div {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #666666;
+}
+main div h2 {
+    font-weight: bold;
+    font-size: 40px;
+    color: #3C2313;
+
+}
+.banner{
+    background-image: url('../img/bowl-and-pet-daities-on-green-background 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 409px;
+    width: auto;
+    text-align: right;
+}
+header nav{
+    background: #F0A83E;
+
+}
+.producto{
+    text-align: center;
+    background-color: #FBFAF6;
+    font-size: 20px;
+    color: #3C2313;
+    font-weight: bold;
+}
+.precio{
+    color: #F0A83E;
+    font-weight: 200;
+}
