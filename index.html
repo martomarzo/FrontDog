@@ -10,24 +10,19 @@
 <body>
     <header>
         <div>
-             Grandes ofertas en comederos
-        </div>                      
-        <div>      
-             
-             <ul>
+             <span>Grandes ofertas en comederos</span>     
+            <ul>
                 <li>
                      Español
                  </li>
                  <li>
                      $ARG
                  </li>
-             </ul>      
-    
-        </div> 
-    
+             </ul>   
+        </div>     
     <nav>        
          <img src="./img/Logo_front_dog_and_cat.png" alt="Logo">
-         <div>
+         
          <ul>
              <li>
                  Categorias
@@ -42,25 +37,24 @@
                 Contactenos
              </li>
          </ul>
-        </div>
+        
     </nav>
     </header>
-
-
     <main>
         <div class="banner">
-            <p>¡Es un placer tenerte aquí!</p>
-            <p>¡Comederos en descuento!</p>
-            <p>COMEDEROS</p>
+            <p class="destacado-1">¡Es un placer tenerte aquí!</p>
+            <p class="destacado-2">¡Comederos en descuento!</p>
+            <p class="boton">COMEDEROS</p>
         </div>        
         <div>
             <img src="./img/Patita.png" alt="Huella animal">
             <h2>Productos destacados</h2>
             <p>Comedor - Accesorios - Comida</p>
-        </div>    
+        </div>  
+            <div class="productos">  
                 <div class="producto">
                     <img src="./img/churrasquito.png" alt="churrasquito">
-                    <p>Churrasquito</p>
+                    <p>Jueguete Churrasquito</p>
                     <p class="precio">$150</p>
                 </div>
                 <div class="producto">
@@ -72,23 +66,49 @@
                     <img src="./img/Huesito.png" alt="huesitos">
                     <p>Juguete Huesito</p>
                     <p class="precio">$650</p>
-                </div>    
+                </div>
+            </div>        
         </div>
-
-    </main> 
-
-    <footer>
-        <div>
-            <p>Suscribite para más novedades</p>
-            <form>    
+        <div class="formContacto">
+            <h3>Contáctenos</h3>
+            <form action="">
+                <label for="nombre"><input type="text" id="nombre" value="Nombre y Apellido"></label>
+                <label for="email"><input type="text" id="email" value="Ingresa tu correo electrónico"></label>
+                <label for="telefono"><input type="text" id="telefono" value="Teléfono"></label>
+                <label for="enviar"><input type="submit" id="enviar" value="Enviar"></label>
             </form>
         </div>
-        <div>
-
+        <div class="suscribite">
+            <p>Suscribite para más novedades</p>
+            <form>
+                <label for="email"><input type="text" name="email" id="email" value="Ingresa tu correo electrónico"></label>    
+                <label for="suscribirse"><input type="submit" id="suscribirse" value="Suscribirse"></label>
+            </form>
         </div>
+    </main> 
+    <footer>
         
+        <div>
+            <div class="localidad">
+                <img src="./img/icoLocation.png" alt="Pin">
+                <p>Localidad</p>
+                <span>Calle-provincia</span>
+            </div>
+            <div class="telefono">
+                <img src="./img/icoTel.png" alt="tel">
+                <p>Telefono</p>
+                <span>Numero de telefono</span>
+            </div>
+            <div class="correElectronico">
+                <img src="./img/icoMail.png" alt="mail">
+                <p>Correo Electrónico</p>
+                <span>Direccion de correo</span>
+            </div>
+            <img src="./img/Logo_front_dog_and_cat.png" alt="Logo">
+        </div> 
+        <div class="derechos">       
         <p>Todos los derechos reservados Front End</p>
-
+        </div>
     </footer>
 </body> 
 </html>
