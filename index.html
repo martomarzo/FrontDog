@@ -25,38 +25,38 @@
          
          <ul>
              <li>
-                 Categorias
+                <a href="#">Categorias</a> 
              </li>
              <li>
-                Pets
+                <a href="#">Pets</a>
              </li>
              <li>
-                Nosotros
+                <a href="#">Nosotros</a>
              </li>
              <li>
-                Contactenos
+                <a href="#">Contactenos</a>
              </li>
          </ul>
         
     </nav>
     </header>
-    <main>
-        <div class="banner">
+        <main>
+            <section class="banner">
             <p class="destacado-1">¡Es un placer tenerte aquí!</p>
-            <p class="destacado-2">¡Comederos en descuento!</p>
-            <p class="boton">COMEDEROS</p>
-        </div>        
-        <div>
-            <img src="./img/Patita.png" alt="Huella animal">
-            <h2>Productos destacados</h2>
-            <p>Comedor - Accesorios - Comida</p>
-        </div>  
-            <div class="productos">  
-                <div class="producto">
+                <p class="destacado-2">¡Comederos en descuento!</p>
+                <p class="boton">COMEDEROS</p>
+            </section>        
+            <section class="destacados">
+                <img src="./img/Patita.png" alt="Huella animal">
+                <h2>Productos destacados</h2>
+                <p>Comedor - Accesorios - Comida</p>
+            </section>  
+            <section class="productos">  
+                <article class="producto">
                     <img src="./img/churrasquito.png" alt="churrasquito">
                     <p>Jueguete Churrasquito</p>
                     <p class="precio">$150</p>
-                </div>
+                </article>
                 <div class="producto">
                     <img src="./img/comedero.png" alt="comedero">
                     <p>Comedero para perro</p>
@@ -67,22 +67,22 @@
                     <p>Juguete Huesito</p>
                     <p class="precio">$650</p>
                 </div>
-            </div>        
+            </section>        
         </div>
-        <div class="formContacto">
+        <section class="formContacto">
             <h3>Contáctenos</h3>
             <form action="">
-                <label for="nombre"><input type="text" id="nombre" value="Nombre y Apellido"></label>
-                <label for="email"><input type="text" id="email" value="Ingresa tu correo electrónico"></label>
-                <label for="telefono"><input type="text" id="telefono" value="Teléfono"></label>
-                <label for="enviar"><input type="submit" id="enviar" value="Enviar"></label>
+                <label for="nombre"><input class="texto" type="text" id="nombre" placeholder="Nombre y Apellido"></label>
+                <label for="email"><input class="texto" type="text" id="email" placeholder="Correo electrónico"></label>
+                <label for="telefono"><input class="texto" type="text" id="telefono" placeholder="Teléfono"></label>
+                <label for="enviar"><input class="boton" type="submit" id="enviar" placeholder="Enviar"></label>
             </form>
-        </div>
+        </section>
         <div class="suscribite">
             <p>Suscribite para más novedades</p>
             <form>
-                <label for="email"><input type="text" name="email" id="email" value="Ingresa tu correo electrónico"></label>    
-                <label for="suscribirse"><input type="submit" id="suscribirse" value="Suscribirse"></label>
+                <label for="email"><input type="text" name="email" id="email" placeholder="Correo electrónico"></label>    
+                <label for="suscribirse"><input type="submit" id="suscribirse" placeholder="Suscribirse"></label>
             </form>
         </div>
     </main> 

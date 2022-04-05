@@ -9,7 +9,9 @@
 header {
     background-color: black;
     color: white;
+    position: sticky;
     }
+
 header div {
     display: flex;
     justify-content: space-between;
@@ -21,7 +23,7 @@ header div {
 }
 header div ul {
     display: flex;
-   /* width: 100%;*/
+    width: 100%;
     justify-content: space-around;
     list-style-type: none;
     
@@ -49,20 +51,26 @@ header nav ul li{
     padding-left: 20px;
     padding-right: 20px;
 }
-
-main div {
+header a{
+    text-decoration: none;
+    color: white;
+}
+main section {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     color: #666666;
 }
-main div h2 {
+main section h2 {
     font-weight: bold;
     font-size: 40px;
     color: #3C2313;
 
 }
-.banner{
+main section.destacados{
+    margin: 50px;
+}
+main .banner{
     display: flex;
     background-image: url('../img/bowl-and-pet-daities-on-green-background 1.png');
     background-repeat: no-repeat;
@@ -73,7 +81,6 @@ main div h2 {
     flex-direction: column;
     align-items: center;
     padding-left:70%;
-    
 }
 .banner p{
     padding: 20px;
@@ -85,7 +92,7 @@ main div h2 {
     font-size: 20px;
     color: #3C2313;
     font-weight: bold;
-    width: 262px;
+    width: 30%;
 }
 .precio{
     color: #F0A83E;
@@ -117,6 +124,7 @@ main div h2 {
 }
 .formContacto{
     margin: 100px;
+
 }
 .formContacto h3{
     color: #3C2313;
@@ -129,8 +137,22 @@ main div h2 {
     justify-content: space-around;
    
 }
-.formContacto form input{
-    color: #3C2313;
+.formContacto form input.texto{
+    background-color: #3C2313;
+    color: white;
+    border-radius: .9rem;
+    width: 50%;
+    height: 3vh;
+
+}
+.formContacto form input::placeholder{
+    color: white;
+}
+.formContacto form input.boton{
+    width: 110px;
+    border-radius: .9rem;
+    height: 1vh;
+    
 }
 .suscribite{
     background-color: #F0A83E;
